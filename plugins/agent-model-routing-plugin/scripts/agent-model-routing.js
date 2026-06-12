@@ -20,12 +20,12 @@ const MODEL = Object.freeze({
 });
 
 const MODEL_BY_AGENT = new Map([
-  ["guide", MODEL.HAIKU],
-  ["explore", MODEL.HAIKU],
+  ["guide", MODEL.FAST],
+  ["explore", MODEL.FAST],
 
   // 快速执行
-  ["general", MODEL.FAST],
-  ["generalpurpose", MODEL.FAST],
+  ["general", MODEL.SONNET],
+  ["generalpurpose", MODEL.SONNET],
 
   // 规划、子任务
   ["plan", MODEL.OPUS],
