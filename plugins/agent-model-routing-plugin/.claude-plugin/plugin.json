@@ -5,7 +5,6 @@
   "version": "1.0.0",
   "description": "Route Claude Code Agent tool calls to Sonnet or Opus by subagent type.",
   "author": {
-    "name": "Tiger KK"
-  },
-  "hooks": "./hooks/hooks.json"
+    "name": "TigerKK"
+  }
 }
