@@ -1,0 +1,13 @@
+{
+  "name": "kk-claude-plugins",
+  "owner": {
+    "name": "TigerKK"
+  },
+  "plugins": [
+    {
+      "name": "agent-model-routing-plugin",
+      "source": "./plugins/agent-model-routing-plugin",
+      "description": "Route Agent tool calls to different Claude models"
+    }
+  ]
+}

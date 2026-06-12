@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "agent-model-routing",
+  "displayName": "Agent Model Routing",
+  "version": "1.0.0",
+  "description": "Route Claude Code Agent tool calls to Sonnet or Opus by subagent type.",
+  "author": {
+    "name": "Tiger KK"
+  },
+  "hooks": "./hooks/hooks.json"
+}
